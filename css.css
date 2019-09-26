@@ -1,0 +1,131 @@
+body {
+    background-image: url(img/rioo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+}
+
+
+h1 {
+    background-color: orangered;
+    color: #123; 
+    text-align: left;
+    margin: 2px 0px 0px 0px;
+    font-size: 25px;
+    padding: 10px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    background-color: gray;
+    text-justify: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+    opacity: .85;
+    border: #123 groove;
+}
+/* menu principal  */
+
+#listademenu {
+    background-color: #123;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px;
+    
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+    border: 2px white solid;
+    border-radius: 7px;
+    padding: 10px;
+}
+li:hover a{
+    background: #FFF;
+    color: black;
+    width: 80px;
+    
+/************************/
+}
+ul {
+    border-left: 2px white solid;
+    border-right:2px white solid;
+    margin-left: 250PX;
+    margin-right: 250px;
+}
+
+p {
+    text-justify: auto;
+    color: black;
+    font-size: 18px;
+    
+}
+/* imagens com animaçao */
+.img1 {
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;   
+}
+
+.img2 {
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    margin-top: 10%;
+    
+
+}
+footer {
+    margin-top: 10%;
+    border-top:1px #123 solid;
+    clear: both;
+    color: whitesmoke; 
+    padding-top: 2%;
+}
+.traco  {
+    
+    border-bottom:  2px black solid;
+    margin-top: 2%;
+    clear: both;
+    margin-bottom: 2%;
+}
+.teste {
+    text-align: left;
+    float: right;
+    margin-right: 50%;
+}
+#mapa {
+    height: 600px;
+    width: 900px;
+    border-radius: 5%;
+    padding-left: 2%;
+    
+}
+
+#telapreta {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    background-color:black;
+    text-justify: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+    opacity: 99;
+    border: #123 groove;
+}
