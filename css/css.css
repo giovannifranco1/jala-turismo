@@ -39,8 +39,6 @@ main {
 /* menu principal  */
 
 #listademenu {
-   
-    color: yellow;
     font-family: 'Big Shoulders Display', cursive;
     text-align: center;
     margin-bottom: 3%;
@@ -48,17 +46,13 @@ main {
     padding-top: 0;
     margin-top: 0;
     background-color: rgb(0, 0, 0, 0.7) ;
-    transition-duration: 0.5s;
-    
+    transition-duration: 0.5s;   
 }
 
 #listademenu li {
-    display: inline-block;
+    display: inline;
     position: relative;
-    top: 0;
-    margin-top: 10px;
-    
-    
+    margin-top: 100px;
 }
 #listademenu li a {
     text-decoration: none;
@@ -67,17 +61,9 @@ main {
     border-bottom-right-radius: 7px;
     padding: 5px 10px; /**mudar para em  **/
     background-color: #123;
-    font-size: 4vh;
-    
+    font-size: 4vh; 
+}
 
-    
-}
-ul > li:hover > a{
-    background: rgb(0, 0, 0, 0.8);
-    border-top:  2px solid #123;
-    width: 80px;
-    color: #0073aa;
-}
 
 p {
     text-justify: auto;
@@ -87,9 +73,7 @@ p {
     padding: 20px 50px;
     font-family: all; 
     text-align: justify;
-
-    
-    
+     
 }
 .box {
     border-radius: 7.2px;
@@ -97,9 +81,12 @@ p {
 }
 
 /* imagens com animaçao */
-img {
+img{
     border: 4px rgb(0, 0, 0, 0.9) solid;
     border-spacing: 0;
+}
+.tabela > a{
+    margin: 0;
 }
 .img1 {
     
@@ -112,9 +99,8 @@ img {
     height: 19vh;
     width: 19vh;
     margin-top: 10%;
-    
-
 }
+
 footer {
     margin-top: 10%;
     border-top:1px #123 solid;
@@ -165,4 +151,7 @@ footer {
         transition-duration: 0.5;
     }
     
+}
+.teste:hover {
+    background-color: #000;
 }
