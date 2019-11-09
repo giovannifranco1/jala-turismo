@@ -62,19 +62,34 @@ h2 {
 
 }
 .linhafotos1 > ul > li > div > div > img.morro{
-    width: 40vh;
-    height: 44vh;
-    padding-bottom: 16vh;
+    width: 36vh;
+    height: 30vh;
+    transition-duration: 0.5s;
+    padding-bottom: 13vh;
+    
 
 }
 .morrocoluna {
-    background: rgb(0, 0, 0,0.7);
-    border: red solid 5px;
-    height: 50vh;
-    width: 50vh;
-    margin: 5000000px;
+    background: rgb(0, 0, 0,0.9);
+    border: white solid 5px;
+    width: 36vh;
+    margin-left: 3vh;
+    transition-duration: 0.5s;
+
     
 }
+.linhafotos1 > ul > li > div > div > img.morro:hover{
+    width: 40vh;
+    transition-duration: 0.5s;
+}
+.morrocoluna:hover{
+    width: 40vh;
+    transition-duration: 0.5s;
+    font-size: 200px;
+}
+/* .linhafotos1 > ul > li > div > div > p {
+    
+} */
 main {
     width: 89.2%;
     margin: 0 auto 0 auto;
@@ -117,6 +132,9 @@ p {
     height: 19vh;
     width: 19vh;
     margin-top: 10%;
+}
+.img2:hover{
+   
 }
 
 #mapa {
