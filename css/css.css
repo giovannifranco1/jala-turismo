@@ -67,23 +67,24 @@ h2 {
 
 }
 
-/* .linhafotos1 > ul > li > div > div > img.morro:hover{
-    width: 40vh;
-    transition-duration: 0.5s;
-} */
+.linhafotos1 {
+    background-color:  gray;
+    border: solid 3px black;
+    
+} 
 .image{
     display: inline-table;
-    width: 36vh;
-    padding: 15px;
+    padding: 5px;
     background: rgb(0, 0, 0,0.9);
     border: white solid 5px;
-    width: 36vh;
     margin-left: 3vh;
     transition-duration: 0.1s;
+    width: 36vh;
+    height: auto;
 }
 
 .image img{
-    width: 40vh;
+    width: 38vh;
     height: auto;
     top: 0;
     transition-duration: 0.1;
@@ -92,11 +93,16 @@ h2 {
     transform: translateX(5vh) translateY(10vh) scale(1.2);
     transition: 0.5s;
 }
+.image:hover > p{
+    font-size: 11pt;
+    transition-duration: 0.5s;
+}
 .image > p{
     padding: 0;
-    display: inline-block;
-
-
+    font-size: 10pt;
+    transition-duration: 0s;
+    text-align: justify;
+    
 }
 main {
     width: 89.2%;
@@ -107,7 +113,7 @@ main {
     border: #123 groove;
     transition-duration: 0.5s;
 }
- p {
+p{
     text-justify: auto;
     color: white;
     font-size: 3vh;
@@ -119,16 +125,12 @@ main {
     
      
 }
-.box {
+.box{
     border-radius: 7.2px;
     background:rgb(0, 0, 0, 0.7);
 }
 
 /* imagens com animaçao */
-
-.tabela > a{
-    margin: 0;
-}
 .img1 {
     
     height: 19vh;
@@ -177,9 +179,30 @@ footer {
 /* bloco para ser aplicado no celular */
 
 @media (max-width: 650px) {
-    #listademenu  ul > li > a {
-        font-size: 2.5vh;
+.linhafotos1 > .image > img{
+        width: 30vh;
+      
+
         transition-duration: 0.5s;
+    }
+.linhafotos1 > .image > p{
+    font-size: 8pt;
+    transition-duration: 0.5s;
+}
+.linhafotos1 > .image{
+    width: 19vh;
+    transition-duration: 0.5s;
+}
+    h2{
+        font-size: 3vh;
+    }
+
+    
+    #listademenu  ul > li > a {
+        font-size: 2.0vh;
+        transition-duration: 0.5s;
+        padding-top:1.5vh;
+        margin-bottom: 10000px;
     }
 
     main {
@@ -190,13 +213,6 @@ footer {
         padding: 7px 15px;
         transition-duration: 0.5;
     }
-    #listademenu > img.image {
-        width: 20px;
-    }
     
 }
-@media(max-width: 411px){
-    #listademenu ul > li > a{
-        font-size: 2px;
-    }
-}
+
