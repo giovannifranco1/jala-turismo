@@ -22,6 +22,11 @@ h1 {
 
 
 /* menu principal do SITE  */
+#listademenu > ul > li > a > .home{
+    color: #123;
+}
+
+
 
 #listademenu {
     width: 100%;
@@ -40,8 +45,8 @@ h1 {
 #listademenu ul > li > a {
     background-color: #123;
     padding: 5px;
+    color:white;
     text-decoration: none;
-    color: white;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     padding: 0.7vh 1.5vh; /**mudar para em  **/
@@ -61,54 +66,38 @@ h2 {
     font-family: 'Big Shoulders Display', cursive;
 
 }
-.linhafotos1 > ul > li > div > div > img.morro{
-    width: 36vh;
-    height: auto;
-    transition-duration: 0.5s;
-    padding-bottom: 13vh;
 
-}
-.morrocoluna {
-    background: rgb(0, 0, 0,0.9);
-    border: white solid 5px;
-    width: 36vh;
-    margin-left: 3vh;
-    transition-duration: 0.5s;
-    
-
-    
-}
-.morrocoluna > p {
-    font-size: 2vh;
-}
 /* .linhafotos1 > ul > li > div > div > img.morro:hover{
     width: 40vh;
     transition-duration: 0.5s;
 } */
-.morrocoluna:hover{
-    padding: 0vh 12vh 12vh 0vh;
-    transition-duration: 0.5s;
-}
-.morrocoluna:hover > .morro {
-    width: 48vh;
-}
-.morrocoluna:hover > p {
-    font-size: 3vh;
-}
-.dunascoluna{
+.image{
+    display: inline-table;
+    width: 36vh;
+    padding: 15px;
     background: rgb(0, 0, 0,0.9);
     border: white solid 5px;
     width: 36vh;
     margin-left: 3vh;
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
 }
-.dunascoluna > .dunas { 
-    width: 35vh;
-    height: auto;
-}
-/* .linhafotos1 > ul > li > div > div > p {
 
-} */
+.image img{
+    width: 40vh;
+    height: auto;
+    top: 0;
+    transition-duration: 0.1;
+}
+.image:hover{
+    transform: translateX(5vh) translateY(10vh) scale(1.2);
+    transition: 0.5s;
+}
+.image > p{
+    padding: 0;
+    display: inline-block;
+
+
+}
 main {
     width: 89.2%;
     margin: 0 auto 0 auto;
@@ -118,7 +107,7 @@ main {
     border: #123 groove;
     transition-duration: 0.5s;
 }
-p {
+ p {
     text-justify: auto;
     color: white;
     font-size: 3vh;
@@ -201,5 +190,13 @@ footer {
         padding: 7px 15px;
         transition-duration: 0.5;
     }
+    #listademenu > img.image {
+        width: 20px;
+    }
     
+}
+@media(max-width: 411px){
+    #listademenu ul > li > a{
+        font-size: 2px;
+    }
 }
