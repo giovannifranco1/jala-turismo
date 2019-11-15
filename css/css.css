@@ -67,20 +67,26 @@ h2 {
 
 }
 
-.linhafotos1 {
+.caixafotos{
     background-color:  gray;
     border: solid 3px black;
-    
+    margin-bottom: 3vh   
 } 
-.image{
+.image  {
     display: inline-table;
     padding: 5px;
-    background: rgb(0, 0, 0,0.9);
-    border: white solid 5px;
     margin-left: 3vh;
     transition-duration: 0.1s;
     width: 36vh;
     height: auto;
+    
+}
+.image > .boxMenu{
+    background: rgb(0, 0, 0, 0.7);
+    border: 2px solid white;
+}
+.tituloP{
+    text-align: center;
 }
 
 .image img{
@@ -93,16 +99,22 @@ h2 {
     transform: translateX(5vh) translateY(10vh) scale(1.2);
     transition: 0.5s;
 }
-.image:hover > p{
-    font-size: 11pt;
+.image > .boxMenu:hover > .fotoP {
+    background-color: grey;
+    border-radius: 5px;
+    margin: 5px; 
+    font-size: 10pt;
     transition-duration: 0.5s;
 }
-.image > p{
-    padding: 0;
+.tituloP{
+    font-size: 13pt;
+    padding: 2px;
+    display: inline;
+    font-family:  'Zhi Mang Xing', cursive;
+} 
+.image > .boxMenu > .fotoP > p {
     font-size: 10pt;
-    transition-duration: 0s;
-    text-align: justify;
-    
+    padding: 1vh;
 }
 main {
     width: 89.2%;
@@ -178,14 +190,12 @@ footer {
 
 /* bloco para ser aplicado no celular */
 
-@media (max-width: 650px) {
-.linhafotos1 > .image > img{
-        width: 30vh;
-      
-
+@media (max-width: 750px) {
+.linhafotos1 > .image  .boxMenu > img {
+        width: 20vh;
         transition-duration: 0.5s;
     }
-.linhafotos1 > .image > p{
+.linhafotos1 > .image > .boxMenu > .fotoP > p{
     font-size: 8pt;
     transition-duration: 0.5s;
 }
