@@ -1,0 +1,42 @@
+
+#Mapa {
+
+    width: 100vh;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 4vh;
+    border: solid 0.2vh blue;
+    transition-duration: 0.5s;
+}
+h2{ 
+    margin-left: 3vh;
+    margin-bottom: 3vh;
+    font-size: 5vh;
+    color: black;
+    font-family: 'Big Shoulders Display', cursive;
+    color: black;
+    border-bottom: solid 0.3vh orange;
+}
+.zoom{
+    overflow: hidden;
+}
+.zoom > img {
+    
+}
+.zoom:hover {
+    transform: translateX(1vh) translateY(1vh) scale(1.1);
+    transition: 0.5s;
+}
+@media(max-width:1000px){
+    #Mapa{
+        width: 50vh;
+        transition-duration: 0.5s;
+    }
+}
+@media(max-width: 600px){
+    #Mapa{
+        width: 35vh;
+        transition-duration: 0.5s;
+    }
+    
+}
