@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display|McLaren|Zhi+Mang+Xing&display=swap');
 
 #body {  
-    background: url('../img/arvore.jpeg');
+    background: url('../img/papeljala.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -91,7 +91,7 @@ h1 {
 .image > .boxMenu {
     background: rgb(0, 0, 0, 0.7);
     border: 2px solid white;
-    display: block;
+    display: block; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -102,7 +102,7 @@ h1 {
 
 .image .boxMenu > a >  img{
     width:40vh;
-    height: 20vh;
+    height: 23vh;
     top: 0;
     transition-duration: 0.1;
 }
@@ -235,6 +235,7 @@ footer {
     .linhafotos1 > .image .boxMenu, .linhafotos1 > .image  .boxMenu  > a > img{
         width: 27vh;
         transition-duration: 0.5s;
+        height: auto;
     }
     .linhafotos1 > .image > .boxMenu > a > .fotoP > p{
     font-size: 7.0pt;
@@ -278,6 +279,8 @@ footer {
 @media (max-width: 630px) {
     .linhafotos1 > .image .boxMenu, .linhafotos1 > .image  .boxMenu  > a > img{
         width: 20vh;
+        height: auto;
+
         transition-duration: 0.5s;
     }
     .linhafotos1 > .image > .boxMenu > a >  .fotoP  p{
@@ -286,6 +289,7 @@ footer {
     }
     .linhafotos1 > .image{
     width: 19vh;
+    height: auto;
     transition-duration: 0.5s;
     margin: 0vh;
     }
